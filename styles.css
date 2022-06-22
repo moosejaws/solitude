@@ -8,12 +8,32 @@ img {
 }
 
 
-    
+
+ul {
+    width: 70%;
+    list-style-type: none;
+    padding: 0px;
+}
+
 li {
     font-size: 25px;
     margin-bottom: 16px;
-    list-style: none;
-    
+    list-style-type: none;
+    text-align: center;    
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff8215;
+}
+a:visited {
+    text-decoration: none;
 }
 
 .list {
