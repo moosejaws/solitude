@@ -1,13 +1,32 @@
-img {
-    height: auto;
-    width: 100vw;
-    margin-top: 80px;
+html {
+    font-family: sans-serif;
 }
 
-ul {
-    text-align: center;
-    }
+img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
     
 li {
-    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 16px;
+    list-style: none;
+    
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
